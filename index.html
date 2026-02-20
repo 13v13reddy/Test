@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Rahul Gangadasu | Senior Full Stack Java Developer</title>
+
+  <meta name="description" content="Rahul Gangadasu — Senior Full Stack Java Developer with 7+ years across Java, Spring Boot, Kafka, GKE, AWS, and enterprise AI workflows." />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./assets/favicon.svg" />
+  <link rel="manifest" href="./site.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./assets/site.css" />
+  <script defer src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="liquid-bg" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+  </div>
+  <div class="caustics" aria-hidden="true"></div>
+  <div class="spec-sweep" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div id="cursorDot" class="cursor-dot" aria-hidden="true"></div>
+  <div id="cursorRing" class="cursor-ring" aria-hidden="true"></div>
+
+  <nav class="dock-wrap" aria-label="Primary">
+    <div class="dock" id="dock">
+      <div class="dock-indicator" id="dockIndicator" aria-hidden="true"></div>
+
+      <a href="#home" class="dock-link active" data-id="home">Home</a>
+      <a href="#summary" class="dock-link" data-id="summary">Summary</a>
+      <a href="#skills" class="dock-link" data-id="skills">Skills</a>
+      <a href="#experience" class="dock-link" data-id="experience">Experience</a>
+      <a href="#education" class="dock-link" data-id="education">Education</a>
+      <a href="#contact" class="dock-link" data-id="contact">Contact</a>
+
+      <div class="dock-sep" aria-hidden="true"></div>
+
+      <a href="./assets/Rahul_Gangadasu_Resume.pdf" download class="glass-btn primary text-xs font-extrabold px-4 py-2 rounded-xl relative z-[2]">
+        <i data-lucide="download"></i> Resume
+      </a>
+    </div>
+  </nav>
+
+  <nav class="mobile-dock" aria-label="Primary (Mobile)">
+    <div class="mobile-dock-inner" id="mobileDock">
+      <a href="#home" class="mdock-btn active" data-id="home">
+        <i data-lucide="home"></i><span>Home</span>
+      </a>
+      <a href="#summary" class="mdock-btn" data-id="summary">
+        <i data-lucide="scroll-text"></i><span>Summary</span>
+      </a>
+      <a href="#skills" class="mdock-btn" data-id="skills">
+        <i data-lucide="layers-3"></i><span>Skills</span>
+      </a>
+      <a href="#experience" class="mdock-btn" data-id="experience">
+        <i data-lucide="briefcase"></i><span>Work</span>
+      </a>
+      <a href="#education" class="mdock-btn" data-id="education">
+        <i data-lucide="graduation-cap"></i><span>Edu</span>
+      </a>
+      <a href="#contact" class="mdock-btn" data-id="contact">
+        <i data-lucide="mail"></i><span>Contact</span>
+      </a>
+    </div>
+  </nav>
+
+  <main id="main-content" class="relative z-10 safe-bottom">
+    <section id="home" class="min-h-screen flex flex-col justify-center items-center px-5 sm:px-6 text-center">
+      <div class="reveal">
+        <span class="inline-block px-4 py-1.5 rounded-full glass depth-1 text-[10px] font-extrabold uppercase tracking-widest mb-6">
+          <span class="relative z-10 text-blue-700">Rahul Gangadasu</span>
+        </span>
+
+        <h1 class="text-[40px] leading-[1.03] sm:text-6xl md:text-8xl font-extrabold tracking-tighter mb-6">
+          Senior Full Stack <br><span class="text-blue-600">Java Developer.</span>
+        </h1>
+
+        <p class="max-w-2xl mx-auto text-gray-700/80 text-base sm:text-lg md:text-xl font-semibold mb-9">
+          7+ years delivering scalable microservices, cloud-native platforms, and AI-enabled enterprise workflows across Verizon, Blue Yonder, TCS, and Hexaware.
+        </p>
+
+        <div class="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 justify-center">
+          <a href="https://www.linkedin.com/in/rahulgangadasu/" target="_blank" rel="noopener noreferrer" class="glass-btn text-sm font-extrabold w-full sm:w-auto">
+            <i data-lucide="linkedin"></i> LinkedIn
+          </a>
+          <a href="#experience" class="glass-btn text-sm font-extrabold w-full sm:w-auto">
+            <i data-lucide="briefcase"></i> View Experience
+          </a>
+          <a href="#contact" class="glass-btn text-sm font-extrabold w-full sm:w-auto">
+            <i data-lucide="mail"></i> Contact
+          </a>
+        </div>
+
+        <div class="mt-3 sm:hidden">
+          <a href="./assets/Rahul_Gangadasu_Resume.pdf" download class="glass-btn primary text-sm font-extrabold w-full">
+            <i data-lucide="download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="summary" class="py-16 sm:py-20 px-5 sm:px-6 max-w-6xl mx-auto">
+      <h2 class="text-3xl font-black mb-10 sm:mb-12 text-center">Professional <span class="text-blue-600">Summary</span></h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
+        <article class="reveal glass p-7 sm:p-8">
+          <div class="relative z-10">
+            <h3 class="text-xl font-extrabold mb-3">Architecture Focus</h3>
+            <ul class="text-gray-900/75 leading-relaxed font-semibold text-sm space-y-2 list-disc pl-5">
+              <li>7+ years across full SDLC delivering enterprise Java applications in Agile teams.</li>
+              <li>Cloud-native microservices with Java 17, Spring Boot, Kafka, Docker, and Kubernetes.</li>
+              <li>Hybrid cloud delivery on AWS and GCP with secure, high-availability deployment patterns.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="reveal glass p-7 sm:p-8">
+          <div class="relative z-10">
+            <h3 class="text-xl font-extrabold mb-3">AI + Enterprise Delivery</h3>
+            <ul class="text-gray-900/75 leading-relaxed font-semibold text-sm space-y-2 list-disc pl-5">
+              <li>Built LLM-assisted enterprise workflows for summarization, routing, and knowledge retrieval.</li>
+              <li>Designed secure REST APIs with Spring Security, OAuth2, and JWT for distributed systems.</li>
+              <li>Engineering-first mindset with TDD, CI/CD automation, observability, and production hardening.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="py-16 sm:py-20 px-5 sm:px-6 max-w-6xl mx-auto">
+      <h2 class="text-3xl font-black mb-10 sm:mb-12 text-center">Technical <span class="text-blue-600">Skills</span></h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
+        <article class="reveal glass p-7 sm:p-8">
+          <div class="relative z-10">
+            <h3 class="text-xl font-extrabold mb-4">Backend & APIs</h3>
+            <p class="text-gray-900/80 font-semibold text-sm leading-relaxed">Java 17, J2EE, Spring Boot, Spring MVC, Spring Security, Hibernate ORM, Node.js, REST APIs, Microservices, Event-Driven Architecture, OAuth2, JWT, Apache Kafka.</p>
+          </div>
+        </article>
+
+        <article class="reveal glass p-7 sm:p-8">
+          <div class="relative z-10">
+            <h3 class="text-xl font-extrabold mb-4">Frontend & Mobile</h3>
+            <p class="text-gray-900/80 font-semibold text-sm leading-relaxed">React.js, Redux, React Native, Angular, TypeScript, JavaScript (ES6+), HTML5, CSS3, Bootstrap, jQuery, AJAX, SPA architecture.</p>
+          </div>
+        </article>
+
+        <article class="reveal glass p-7 sm:p-8">
+          <div class="relative z-10">
+            <h3 class="text-xl font-extrabold mb-4">Cloud, DevOps & Observability</h3>
+            <p class="text-gray-900/80 font-semibold text-sm leading-relaxed">AWS (EC2, S3, RDS, ECS, Elastic Beanstalk, IAM), GCP (GKE), Docker, Kubernetes, Jenkins CI/CD, Prometheus, Grafana, Dynatrace, Apache Tomcat.</p>
+          </div>
+        </article>
+
+        <article class="reveal glass p-7 sm:p-8">
+          <div class="relative z-10">
+            <h3 class="text-xl font-extrabold mb-4">Data & Enterprise</h3>
+            <p class="text-gray-900/80 font-semibold text-sm leading-relaxed">Oracle, SQL Server, MySQL, MongoDB, SQL, PL/SQL, Oracle E-Business Suite R12, Maven, Git, Agile Scrum, SDLC, TDD, JUnit, Spock.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="py-16 sm:py-20 px-5 sm:px-6 max-w-5xl mx-auto">
+      <h2 class="text-3xl font-black mb-10 sm:mb-12">Experience<span class="text-blue-600">.</span></h2>
+
+      <div class="space-y-7 sm:space-y-8">
+        <article class="reveal glass p-7 sm:p-8 md:p-10">
+          <div class="relative z-10">
+            <div class="flex flex-col sm:flex-row justify-between mb-4 gap-2">
+              <h3 class="text-2xl font-black">Verizon | Senior Full Stack Java Developer</h3>
+              <span class="text-blue-700 font-extrabold text-xs uppercase self-start sm:self-center">Nov 2024 - Current</span>
+            </div>
+            <ul class="text-gray-900/75 leading-relaxed font-semibold text-sm space-y-2 list-disc pl-5">
+              <li>Engineered Java 17/Spring Boot microservices and Kafka event flows for high-availability enterprise platforms.</li>
+              <li>Designed AI-assisted ticket workflows and knowledge retrieval integrations used across internal support systems.</li>
+              <li>Owned secure API delivery, GKE deployments, and observability using Jenkins, Prometheus, and Grafana.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="reveal glass p-7 sm:p-8 md:p-10">
+          <div class="relative z-10">
+            <div class="flex flex-col sm:flex-row justify-between mb-4 gap-2">
+              <h3 class="text-2xl font-black">Blue Yonder | Full Stack Java Developer</h3>
+              <span class="text-blue-700 font-extrabold text-xs uppercase self-start sm:self-center">May 2022 - Oct 2024</span>
+            </div>
+            <ul class="text-gray-900/75 leading-relaxed font-semibold text-sm space-y-2 list-disc pl-5">
+              <li>Built React Native annotation tooling that supported validation workflows for 10+ ML models.</li>
+              <li>Improved frontend rendering efficiency and reduced latency by about 30% using React Hooks and Redux.</li>
+              <li>Delivered Spring Boot APIs and containerized services across AWS/Kubernetes with Jenkins CI/CD.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="reveal glass p-7 sm:p-8 md:p-10">
+          <div class="relative z-10">
+            <div class="flex flex-col sm:flex-row justify-between mb-4 gap-2">
+              <h3 class="text-2xl font-black">Tata Consultancy Services | Java Developer</h3>
+              <span class="text-blue-700 font-extrabold text-xs uppercase self-start sm:self-center">Jan 2020 - Dec 2021</span>
+            </div>
+            <ul class="text-gray-900/75 leading-relaxed font-semibold text-sm space-y-2 list-disc pl-5">
+              <li>Maintained Spring MVC/EJB/Hibernate monolith modules while incrementally extracting Spring Boot microservices.</li>
+              <li>Implemented Kafka-based asynchronous communication to reduce tight coupling and improve resilience.</li>
+              <li>Supported AWS migration and Oracle EBS R12 financial integrations with complex Oracle SQL/PLSQL.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="reveal glass p-7 sm:p-8 md:p-10">
+          <div class="relative z-10">
+            <div class="flex flex-col sm:flex-row justify-between mb-4 gap-2">
+              <h3 class="text-2xl font-black">Hexaware Technologies | Junior Software Engineer</h3>
+              <span class="text-blue-700 font-extrabold text-xs uppercase self-start sm:self-center">Jun 2019 - Dec 2019</span>
+            </div>
+            <ul class="text-gray-900/75 leading-relaxed font-semibold text-sm space-y-2 list-disc pl-5">
+              <li>Developed Java/Spring Boot service components and REST APIs in a layered enterprise architecture.</li>
+              <li>Integrated Kafka producers/consumers for asynchronous messaging between internal services.</li>
+              <li>Built Angular/TypeScript modules and SQL-backed integrations using MySQL, Maven, and Git.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="py-16 sm:py-20 px-5 sm:px-6 max-w-5xl mx-auto">
+      <h2 class="text-3xl font-black mb-10 sm:mb-12">Education<span class="text-blue-600">.</span></h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
+        <article class="reveal glass p-7 sm:p-8">
+          <div class="relative z-10">
+            <h3 class="text-xl font-extrabold mb-2">Rivier University</h3>
+            <p class="text-gray-900/75 font-semibold">Master of Science in Computer Science</p>
+          </div>
+        </article>
+
+        <article class="reveal glass p-7 sm:p-8">
+          <div class="relative z-10">
+            <h3 class="text-xl font-extrabold mb-2">RVR &amp; JC College of Engineering</h3>
+            <p class="text-gray-900/75 font-semibold">Bachelor of Technology in Computer Science and Engineering</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="py-16 sm:py-20 px-5 sm:px-6 max-w-4xl mx-auto">
+      <h2 class="text-3xl font-black mb-10 sm:mb-12">Contact<span class="text-blue-600">.</span></h2>
+
+      <div class="reveal glass p-7 sm:p-8 md:p-12">
+        <div class="relative z-10">
+          <p class="text-gray-900/75 font-semibold leading-relaxed mb-6">
+            Open to senior full stack, backend platform, and cloud-native engineering roles focused on scalable distributed systems.
+          </p>
+
+          <div class="flex flex-wrap justify-center items-center gap-4 sm:gap-5">
+            <a href="mailto:rahulgangadasu7@gmail.com" aria-label="Email Rahul" title="Email Rahul" class="glass-btn contact-icon contact-icon-mail text-sm font-extrabold">
+              <i data-lucide="mail"></i>
+            </a>
+            <a href="tel:+14695549676" aria-label="Call Rahul" title="Call Rahul" class="glass-btn contact-icon text-sm font-extrabold text-blue-700">
+              <i data-lucide="phone"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rahulgangadasu/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" title="LinkedIn Profile" class="glass-btn contact-icon text-sm font-extrabold text-blue-700">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="./assets/Rahul_Gangadasu_Resume.pdf" download aria-label="Download Resume" title="Download Resume" class="glass-btn contact-icon text-sm font-extrabold text-blue-700 hidden sm:inline-flex">
+              <i data-lucide="download"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-16 text-center">
+      <p class="text-xs font-extrabold text-gray-500/70 tracking-widest uppercase">
+        Rahul Gangadasu © 2026
+      </p>
+    </footer>
+  </main>
+  <button id="scrollTopBtn" class="scroll-top-btn" type="button" aria-label="Scroll to top" title="Scroll to top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      if (window.lucide) lucide.createIcons();
+
+      const revealObserver = new IntersectionObserver((entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) entry.target.classList.add('visible');
+        }
+      }, { threshold: 0.12 });
+      document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+      const dock = document.getElementById('dock');
+      const indicator = document.getElementById('dockIndicator');
+      const navLinks = dock ? Array.from(dock.querySelectorAll('.dock-link')) : [];
+      const mobileDock = document.getElementById('mobileDock');
+      const mobileLinks = mobileDock ? Array.from(mobileDock.querySelectorAll('.mdock-btn')) : [];
+      const sections = Array.from(document.querySelectorAll('main section[id]'));
+
+      const mqMobile = window.matchMedia('(max-width: 640px)');
+      const prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const coarsePointer = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+      const finePointer = window.matchMedia && window.matchMedia('(pointer: fine)').matches;
+      const hoverCapable = window.matchMedia && window.matchMedia('(hover: hover)').matches;
+      const cursorDot = document.getElementById('cursorDot');
+      const cursorRing = document.getElementById('cursorRing');
+
+      let lockUntil = 0;
+      let currentId = 'home';
+      const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+      if (cursorDot && cursorRing && finePointer && hoverCapable && !coarsePointer && !mqMobile.matches && !prefersReduced) {
+        document.body.classList.add('cursor-enabled');
+        let targetX = window.innerWidth / 2;
+        let targetY = window.innerHeight / 2;
+        let ringX = targetX;
+        let ringY = targetY;
+        let dotScale = 1;
+        let ringScale = 1;
+        let rafId = 0;
+
+        function drawCursor() {
+          rafId = requestAnimationFrame(drawCursor);
+          ringX += (targetX - ringX) * 0.2;
+          ringY += (targetY - ringY) * 0.2;
+          cursorDot.style.transform = `translate3d(${targetX}px, ${targetY}px, 0) scale(${dotScale})`;
+          cursorRing.style.transform = `translate3d(${ringX}px, ${ringY}px, 0) scale(${ringScale})`;
+        }
+
+        function showCursor() {
+          cursorDot.classList.add('visible');
+          cursorRing.classList.add('visible');
+        }
+
+        function hideCursor() {
+          cursorDot.classList.remove('visible');
+          cursorRing.classList.remove('visible');
+        }
+
+        document.addEventListener('mousemove', (event) => {
+          targetX = event.clientX;
+          targetY = event.clientY;
+          if (!cursorDot.classList.contains('visible')) showCursor();
+        }, { passive: true });
+
+        document.addEventListener('mouseleave', hideCursor, { passive: true });
+        document.addEventListener('mouseenter', showCursor, { passive: true });
+        document.addEventListener('mousedown', () => {
+          dotScale = 0.86;
+          ringScale = 0.92;
+        }, { passive: true });
+        document.addEventListener('mouseup', () => {
+          dotScale = 1;
+          ringScale = 1;
+        }, { passive: true });
+
+        document.addEventListener('mouseover', (event) => {
+          const interactive = event.target.closest('a, button, .glass-btn, .dock-link, .mdock-btn, [role=\"button\"]');
+          if (interactive) cursorRing.classList.add('hover');
+        }, { passive: true });
+
+        document.addEventListener('mouseout', (event) => {
+          const interactive = event.target.closest('a, button, .glass-btn, .dock-link, .mdock-btn, [role=\"button\"]');
+          if (interactive) cursorRing.classList.remove('hover');
+        }, { passive: true });
+
+        drawCursor();
+        window.addEventListener('beforeunload', () => cancelAnimationFrame(rafId), { passive: true });
+      }
+
+      function setActiveButtons(id) {
+        navLinks.forEach(a => {
+          const target = a.getAttribute('href')?.replace('#', '');
+          const isActive = target === id;
+          a.classList.toggle('active', isActive);
+          if (isActive) a.setAttribute('aria-current', 'page');
+          else a.removeAttribute('aria-current');
+        });
+        mobileLinks.forEach(a => {
+          const target = a.getAttribute('href')?.replace('#', '');
+          const isActive = target === id;
+          a.classList.toggle('active', isActive);
+          if (isActive) a.setAttribute('aria-current', 'page');
+          else a.removeAttribute('aria-current');
+        });
+      }
+
+      function moveIndicatorToActive() {
+        if (!indicator || mqMobile.matches) return;
+        const active = navLinks.find(a => a.classList.contains('active')) || navLinks[0];
+        if (!active) return;
+
+        const dockRect = dock.getBoundingClientRect();
+        const aRect = active.getBoundingClientRect();
+
+        const x = Math.round(aRect.left - dockRect.left);
+        const y = Math.round(aRect.top - dockRect.top);
+        const w = Math.round(aRect.width);
+        const h = Math.round(aRect.height);
+
+        indicator.style.width = w + 'px';
+        indicator.style.height = h + 'px';
+        indicator.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+      }
+
+      function setActive(id, { lock = false } = {}) {
+        if (!id || id === currentId) return;
+        currentId = id;
+        setActiveButtons(id);
+        moveIndicatorToActive();
+        if (lock) lockUntil = Date.now() + 650;
+      }
+
+      function getScrollActiveId() {
+        const probeY = window.scrollY + (window.innerHeight * 0.36);
+        let bestId = sections[0]?.id || currentId;
+        for (const sec of sections) {
+          if (sec.offsetTop <= probeY) bestId = sec.id;
+          else break;
+        }
+        return bestId;
+      }
+
+      function updateScrollTopButton() {
+        if (!scrollTopBtn) return;
+        const show = window.scrollY > 420;
+        scrollTopBtn.classList.toggle('visible', show);
+      }
+
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          setActiveButtons(currentId);
+          moveIndicatorToActive();
+        });
+      });
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(() => moveIndicatorToActive());
+      }
+
+      window.addEventListener('resize', () => moveIndicatorToActive());
+      mqMobile.addEventListener?.('change', () => moveIndicatorToActive());
+
+      const activeObserver = new IntersectionObserver((entries) => {
+        if (Date.now() < lockUntil) return;
+
+        let best = null;
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            if (!best || e.intersectionRatio > best.intersectionRatio) best = e;
+          }
+        }
+        if (best && best.target?.id && best.target.id !== currentId) {
+          if (best.intersectionRatio >= 0.45) setActive(best.target.id);
+        }
+      }, { threshold: [0.25, 0.45, 0.6, 0.75], rootMargin: '-20% 0px -55% 0px' });
+
+      sections.forEach(sec => activeObserver.observe(sec));
+
+      let scrollRaf = 0;
+      function syncActiveOnScroll() {
+        scrollRaf = 0;
+        if (Date.now() < lockUntil) return;
+        const id = getScrollActiveId();
+        if (id && id !== currentId) setActive(id);
+        updateScrollTopButton();
+      }
+      window.addEventListener('scroll', () => {
+        if (!scrollRaf) scrollRaf = requestAnimationFrame(syncActiveOnScroll);
+      }, { passive: true });
+      syncActiveOnScroll();
+      scrollTopBtn?.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      navLinks.forEach(a => {
+        a.addEventListener('click', () => {
+          const id = a.getAttribute('href')?.replace('#', '');
+          if (id) setActive(id, { lock: true });
+        }, { passive: true });
+      });
+      mobileLinks.forEach(a => {
+        a.addEventListener('click', () => {
+          const id = a.getAttribute('href')?.replace('#', '');
+          if (id) setActive(id, { lock: true });
+        }, { passive: true });
+      });
+
+      if (!prefersReduced && !coarsePointer && dock && !mqMobile.matches) {
+        let raf = 0;
+        let lastX = 0;
+
+        function clamp(n, min, max) { return Math.max(min, Math.min(max, n)); }
+
+        function applyMagnify() {
+          raf = 0;
+          const rect = dock.getBoundingClientRect();
+          const x = lastX - rect.left;
+
+          navLinks.forEach((el) => {
+            const r = el.getBoundingClientRect();
+            const center = (r.left - rect.left) + r.width / 2;
+            const dist = Math.abs(x - center);
+
+            const radius = 175;
+            const t = clamp(1 - (dist / radius), 0, 1);
+            const scale = 1 + (t * 0.14);
+
+            el.style.transform = `translate3d(0,${-(t * 2)}px,0) scale(${scale})`;
+          });
+
+          moveIndicatorToActive();
+        }
+
+        dock.addEventListener('mousemove', (e) => {
+          lastX = e.clientX;
+          if (!raf) raf = requestAnimationFrame(applyMagnify);
+        }, { passive: true });
+
+        dock.addEventListener('mouseleave', () => {
+          if (raf) cancelAnimationFrame(raf);
+          raf = 0;
+          navLinks.forEach(el => { el.style.transform = ''; });
+          moveIndicatorToActive();
+        });
+      }
+    });
+  </script>
+</body>
+</html>
